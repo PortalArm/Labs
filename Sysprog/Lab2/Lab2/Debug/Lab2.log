@@ -1,0 +1,1100 @@
+﻿  form.cpp
+  main.cpp
+  Generating Code...
+  
+  Starting pass 1
+  Processed /DEFAULTLIB:uuid.lib
+  Processed /DEFAULTLIB:atls.lib
+  Processed /DEFAULTLIB:kernel32.lib
+  Processed /DEFAULTLIB:user32.lib
+  Processed /DEFAULTLIB:advapi32.lib
+  Processed /DEFAULTLIB:ole32.lib
+  Processed /DEFAULTLIB:shell32.lib
+  Processed /DEFAULTLIB:oleaut32.lib
+  Processed /DEFAULTLIB:shlwapi.lib
+  Processed /DEFAULTLIB:msvcprtd
+  Processed /DEFAULTLIB:comsupp.lib
+  Processed /DEFAULTLIB:MSVCRTD
+  Processed /DEFAULTLIB:OLDNAMES
+  Processed /DEFAULTLIB:MSVCMRTD
+  Processed /DEFAULTLIB:MSCOREE
+  LINK : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  
+  Invoking LINK.EXE:
+   /ERRORREPORT:PROMPT @C:\Users\Tom\AppData\Local\Temp\tmpd768bacd8d014f9eb6bad0057ee1f996.rsp
+   /incremental:no
+   /nologo
+   /fullbuild
+  
+  Starting pass 1
+  Processed /DEFAULTLIB:uuid.lib
+  Processed /DEFAULTLIB:atls.lib
+  Processed /DEFAULTLIB:kernel32.lib
+  Processed /DEFAULTLIB:user32.lib
+  Processed /DEFAULTLIB:advapi32.lib
+  Processed /DEFAULTLIB:ole32.lib
+  Processed /DEFAULTLIB:shell32.lib
+  Processed /DEFAULTLIB:oleaut32.lib
+  Processed /DEFAULTLIB:shlwapi.lib
+  Processed /DEFAULTLIB:msvcprtd
+  Processed /DEFAULTLIB:comsupp.lib
+  Processed /DEFAULTLIB:MSVCRTD
+  Processed /DEFAULTLIB:OLDNAMES
+  Processed /DEFAULTLIB:MSVCMRTD
+  Processed /DEFAULTLIB:MSCOREE
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\atlmfc\lib\x86\atls.lib:
+        Found "class ATL::CAtlBaseModule ATL::_AtlBaseModule" (?_AtlBaseModule@ATL@@3VCAtlBaseModule@1@A)
+          Referenced in form.obj
+          Referenced in main.obj
+          Loaded atls.lib(atlbase.obj)
+        Found ___@@_PchSym_@00@UyrmzirvhUrmgvinvwrzgvUexgllohUzgohOmzgrevkilqPBACIAJCBDBUlyqiUcIGUhgwzucOlyq@4B2008FD98C1DD4
+          Referenced in atls.lib(atlbase.obj)
+          Loaded atls.lib(stdafx.obj)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found _InitializeCriticalSectionEx@12
+          Referenced in form.obj
+          Referenced in main.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _DecodePointer@4
+          Referenced in form.obj
+          Referenced in main.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__IsDebuggerPresent@0
+          Referenced in atls.lib(atlbase.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__OutputDebugStringW@4
+          Referenced in atls.lib(atlbase.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__RaiseException@16
+          Referenced in atls.lib(atlbase.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetLastError@0
+          Referenced in atls.lib(atlbase.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__EnterCriticalSection@4
+          Referenced in atls.lib(atlbase.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__LeaveCriticalSection@4
+          Referenced in atls.lib(atlbase.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__DeleteCriticalSection@4
+          Referenced in atls.lib(atlbase.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __IMPORT_DESCRIPTOR_KERNEL32
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __NULL_IMPORT_DESCRIPTOR
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found KERNEL32_NULL_THUNK_DATA
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\comsupp.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCRTD.lib:
+        Found "const type_info::`vftable'" (??_7type_info@@6B@)
+          Referenced in form.obj
+          Referenced in main.obj
+          Loaded MSVCRTD.lib(std_type_info_static.obj)
+        Found "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+          Referenced in form.obj
+          Referenced in main.obj
+          Loaded MSVCRTD.lib(throw_bad_alloc.obj)
+        Found __fltused
+          Referenced in form.obj
+          Referenced in main.obj
+          Loaded MSVCRTD.lib(fltused.obj)
+        Found @__security_check_cookie@4
+          Referenced in form.obj
+          Referenced in main.obj
+          Loaded MSVCRTD.lib(_secchk_.obj)
+        Found ___security_cookie
+          Referenced in form.obj
+          Referenced in main.obj
+          Referenced in MSVCRTD.lib(_secchk_.obj)
+          Loaded MSVCRTD.lib(gs_cookie.obj)
+        Found ___local_stdio_printf_options
+          Referenced in form.obj
+          Referenced in main.obj
+          Loaded MSVCRTD.lib(default_local_stdio_options.obj)
+        Found "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+          Referenced in atls.lib(atlbase.obj)
+          Referenced in atls.lib(stdafx.obj)
+          Loaded MSVCRTD.lib(delete_scalar.obj)
+        Found _atexit
+          Referenced in atls.lib(atlbase.obj)
+          Loaded MSVCRTD.lib(utility.obj)
+        Found @_guard_check_icall@4
+          Referenced in atls.lib(stdafx.obj)
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded MSVCRTD.lib(checkcfg.obj)
+        Found "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+          Referenced in MSVCRTD.lib(std_type_info_static.obj)
+          Referenced in MSVCRTD.lib(throw_bad_alloc.obj)
+          Loaded MSVCRTD.lib(delete_scalar_size.obj)
+        Found ___report_gsfailure
+          Referenced in MSVCRTD.lib(_secchk_.obj)
+          Loaded MSVCRTD.lib(gs_report.obj)
+        Found ___isa_available_init
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded MSVCRTD.lib(_cpu_disp_.obj)
+        Found __get_startup_argv_mode
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded MSVCRTD.lib(argv_mode.obj)
+        Found ___scrt_is_ucrt_dll_in_use
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded MSVCRTD.lib(ucrt_detection.obj)
+        Found ___scrt_fastfail
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded MSVCRTD.lib(utility_desktop.obj)
+        Found __except_handler4
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded MSVCRTD.lib(_chandler4gs_.obj)
+        Found ___guard_check_icall_fptr
+          Referenced in MSVCRTD.lib(checkcfg.obj)
+          Loaded MSVCRTD.lib(guard_support.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCMRTD.lib:
+        Found "?.cctor@@$$FYMXXZ" (?.cctor@@$$FYMXXZ)
+          Referenced in form.obj
+          Referenced in main.obj
+          Referenced in .NETFramework,Version=v4.6.1.AssemblyAttributes.obj
+          Loaded MSVCMRTD.lib(mstartup.obj)
+  Processed /DEFAULTLIB:ucrtd.lib
+        Found "extern "C" void __clrcall ___CxxCallUnwindDtor(void (__clrcall*)(void *),void *)" (?___CxxCallUnwindDtor@@$$J0YMXP6MXPAX@Z0@Z)
+          Referenced in form.obj
+          Referenced in main.obj
+          Referenced in MSVCMRTD.lib(mstartup.obj)
+          Loaded MSVCMRTD.lib(managdeh.obj)
+        Found "extern "C" void __clrcall _Init_thread_header_m(int volatile *)" (?_Init_thread_header_m@@$$J0YMXPCH@Z)
+          Referenced in form.obj
+          Referenced in main.obj
+          Loaded MSVCMRTD.lib(mtss.obj)
+        Found "extern "C" int __clrcall _atexit_m(void (__clrcall*)(void))" (?_atexit_m@@$$J0YMHP6MXXZ@Z)
+          Referenced in form.obj
+          Referenced in main.obj
+          Loaded MSVCMRTD.lib(msilexit.obj)
+        Found "void __clrcall `eh vector destructor iterator'(void *,unsigned int,unsigned int,void (__clrcall*)(void *))" (??_M@$$FYMXPAXIIP6MX0@Z@Z)
+          Referenced in form.obj
+          Referenced in main.obj
+          Loaded MSVCMRTD.lib(mehvecdtr.obj)
+        Found "void __clrcall _initterm_m(void const * (__clrcall*const *)(void),void const * (__clrcall*const *)(void))" (?_initterm_m@@$$FYMXPBQ6MPBXXZ0@Z)
+          Referenced in MSVCMRTD.lib(mstartup.obj)
+          Loaded MSVCMRTD.lib(pureMSILcode.obj)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+        Found ___stdio_common_vswprintf_s
+          Referenced in form.obj
+          Referenced in main.obj
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __CrtDbgReportW
+          Referenced in form.obj
+          Referenced in main.obj
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __invalid_parameter_noinfo
+          Referenced in atls.lib(atlbase.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __errno
+          Referenced in atls.lib(atlbase.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _free
+          Referenced in atls.lib(atlbase.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __recalloc
+          Referenced in atls.lib(atlbase.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _memset
+          Referenced in atls.lib(atlbase.obj)
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __free_dbg
+          Referenced in MSVCRTD.lib(delete_scalar.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __seh_filter_dll
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __configure_narrow_argv
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __initialize_narrow_environment
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __initialize_onexit_table
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __register_onexit_function
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __execute_onexit_table
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __crt_atexit
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __crt_at_quick_exit
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __cexit
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _terminate
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __IMPORT_DESCRIPTOR_ucrtbased
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found ucrtbased_NULL_THUNK_DATA
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Loaded ucrtd.lib(ucrtbased.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\atlmfc\lib\x86\atls.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found __imp__UnhandledExceptionFilter@4
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetUnhandledExceptionFilter@4
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcess@0
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__TerminateProcess@8
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _IsProcessorFeaturePresent@4
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Referenced in MSVCRTD.lib(_cpu_disp_.obj)
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetStartupInfoW@4
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleHandleW@4
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\comsupp.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCRTD.lib:
+        Found ___xi_a
+          Referenced in MSVCMRTD.lib(mstartup.obj)
+          Loaded MSVCRTD.lib(initializers.obj)
+   Processed /DISALLOWLIB:msvcrt.lib
+   Processed /DISALLOWLIB:libcmt.lib
+   Processed /DISALLOWLIB:libcmtd.lib
+   Processed /DISALLOWLIB:vcruntime.lib
+  Processed /DEFAULTLIB:vcruntimed.lib
+   Processed /DISALLOWLIB:libvcruntime.lib
+   Processed /DISALLOWLIB:libvcruntimed.lib
+   Processed /DISALLOWLIB:ucrt.lib
+   Processed /DISALLOWLIB:libucrt.lib
+   Processed /DISALLOWLIB:libucrtd.lib
+        Found __Init_global_epoch
+          Referenced in MSVCMRTD.lib(mtss.obj)
+          Loaded MSVCRTD.lib(thread_safe_statics.obj)
+        Found __tls_array
+          Referenced in MSVCRTD.lib(thread_safe_statics.obj)
+          Loaded MSVCRTD.lib(atlssup.obj)
+        Found __tls_index
+          Referenced in MSVCRTD.lib(thread_safe_statics.obj)
+          Loaded MSVCRTD.lib(tlssup.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\vcruntimed.lib:
+        Found ___CxxFrameHandler3
+          Referenced in form.obj
+          Referenced in main.obj
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found _memmove
+          Referenced in atls.lib(atlbase.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found ___std_exception_copy
+          Referenced in MSVCRTD.lib(throw_bad_alloc.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found ___std_exception_destroy
+          Referenced in MSVCRTD.lib(throw_bad_alloc.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found __CxxThrowException@8
+          Referenced in MSVCRTD.lib(throw_bad_alloc.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found __except_handler4_common
+          Referenced in MSVCRTD.lib(_chandler4gs_.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found ___vcrt_InitializeCriticalSectionEx
+          Referenced in MSVCRTD.lib(thread_safe_statics.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found __IMPORT_DESCRIPTOR_VCRUNTIME140D
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found VCRUNTIME140D_NULL_THUNK_DATA
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\atlmfc\lib\x86\atls.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found __imp__CloseHandle@4
+          Referenced in MSVCRTD.lib(thread_safe_statics.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetEvent@4
+          Referenced in MSVCRTD.lib(thread_safe_statics.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__ResetEvent@4
+          Referenced in MSVCRTD.lib(thread_safe_statics.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__WaitForSingleObjectEx@12
+          Referenced in MSVCRTD.lib(thread_safe_statics.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__CreateEventW@16
+          Referenced in MSVCRTD.lib(thread_safe_statics.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetProcAddress@8
+          Referenced in MSVCRTD.lib(thread_safe_statics.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\comsupp.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+  
+  Finished searching libraries
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\atlmfc\lib\x86\atls.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\comsupp.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCRTD.lib:
+        Found ___scrt_stub_for_acrt_initialize
+          Loaded MSVCRTD.lib(ucrt_stubs.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\vcruntimed.lib:
+  
+  Finished searching libraries
+  
+  Finished pass 1
+  
+  Search transition ?memcpy@@$$J0YAPAXPAXPBXI@Z->_memcpy
+  Search transition ?memmove@@$$J0YAPAXPAXPBXI@Z->_memmove
+  Search transition ?_CrtDbgReportW@@$$J0YAHHPB_WH00ZZ->__CrtDbgReportW
+  Search transition ?wcscpy_s@@$$J0YAHPA_WIPB_W@Z->_wcscpy_s
+  Search transition ?RaiseException@@$$J216YGXKKKPBK@Z->_RaiseException@16
+  Search transition ?memset@@$$J0YAPAXPAXHI@Z->_memset
+  Search transition ?_AtlInitializeCriticalSectionEx@ATL@@$$FYAHPAU_RTL_CRITICAL_SECTION@@KK@Z->?_AtlInitializeCriticalSectionEx@ATL@@YAHPAU_RTL_CRITICAL_SECTION@@KK@Z
+  Search transition ?GetLastError@@$$J10YGKXZ->_GetLastError@0
+  Search transition ?DeleteCriticalSection@@$$J14YGXPAU_RTL_CRITICAL_SECTION@@@Z->_DeleteCriticalSection@4
+  Search transition ?VariantCopy@@$$J18YGJPAUtagVARIANT@@PBU1@@Z->_VariantCopy@8
+  Search transition ?Term@CAtlComModule@ATL@@$$FQAEXXZ->?Term@CAtlComModule@ATL@@QAEXXZ
+  Search transition ?Allocate@CWin32Heap@ATL@@UAEPAXI@Z->__t2m@?Allocate@CWin32Heap@ATL@@UAEPAXI@Z
+  Search transition ?Free@CWin32Heap@ATL@@UAEXPAX@Z->__t2m@?Free@CWin32Heap@ATL@@UAEXPAX@Z
+  Search transition ?Reallocate@CWin32Heap@ATL@@UAEPAXPAXI@Z->__t2m@?Reallocate@CWin32Heap@ATL@@UAEPAXPAXI@Z
+  Search transition ?GetSize@CWin32Heap@ATL@@UAEIPAX@Z->__t2m@?GetSize@CWin32Heap@ATL@@UAEIPAX@Z
+  Search transition ??_ECWin32Heap@ATL@@UAEPAXI@Z->__t2m@??_ECWin32Heap@ATL@@UAEPAXI@Z
+  Search transition ?HeapDestroy@@$$J14YGHPAX@Z->_HeapDestroy@4
+  Search transition ?Allocate@CAtlStringMgr@ATL@@UAEPAUCStringData@2@HH@Z->__t2m@?Allocate@CAtlStringMgr@ATL@@UAEPAUCStringData@2@HH@Z
+  Search transition ?Free@CAtlStringMgr@ATL@@UAEXPAUCStringData@2@@Z->__t2m@?Free@CAtlStringMgr@ATL@@UAEXPAUCStringData@2@@Z
+  Search transition ?Reallocate@CAtlStringMgr@ATL@@UAEPAUCStringData@2@PAU32@HH@Z->__t2m@?Reallocate@CAtlStringMgr@ATL@@UAEPAUCStringData@2@PAU32@HH@Z
+  Search transition ?GetNilString@CAtlStringMgr@ATL@@UAEPAUCStringData@2@XZ->__t2m@?GetNilString@CAtlStringMgr@ATL@@UAEPAUCStringData@2@XZ
+  Search transition ?Clone@CAtlStringMgr@ATL@@UAEPAUIAtlStringMgr@2@XZ->__t2m@?Clone@CAtlStringMgr@ATL@@UAEPAUIAtlStringMgr@2@XZ
+  Search transition ??_ECAtlStringMgr@ATL@@UAEPAXI@Z->__t2m@??_ECAtlStringMgr@ATL@@UAEPAXI@Z
+  Search transition ??_Eexception@std@@UAEPAXI@Z->__t2m@??_Eexception@std@@UAEPAXI@Z
+  Search transition ?__std_exception_copy@@$$J0YAXPBU__std_exception_data@@PAU1@@Z->___std_exception_copy
+  Search transition ?__std_exception_destroy@@$$J0YAXPAU__std_exception_data@@@Z->___std_exception_destroy
+  Search transition ?__ExceptionPtrDestroy@@$$FYAXPAX@Z->?__ExceptionPtrDestroy@@YAXPAX@Z
+  Search transition ?__ExceptionPtrCopy@@$$FYAXPAXPBX@Z->?__ExceptionPtrCopy@@YAXPAXPBX@Z
+  Search transition ?_Debug_message@std@@$$FYAXPB_W0I@Z->?_Debug_message@std@@YAXPB_W0I@Z
+  Search transition ?_invalid_parameter@@$$J0YAXPB_W00II@Z->__invalid_parameter
+  Search transition ??0_Lockit@std@@$$FQAE@H@Z->??0_Lockit@std@@QAE@H@Z
+  Search transition ??1_Lockit@std@@$$FQAE@XZ->??1_Lockit@std@@QAE@XZ
+  Search transition ??3@$$FYAXPAXI@Z->??3@YAXPAXI@Z
+  Search transition ??_Eruntime_error@std@@UAEPAXI@Z->__t2m@??_Eruntime_error@std@@UAEPAXI@Z
+  Search transition ??_E_System_error@std@@UAEPAXI@Z->__t2m@??_E_System_error@std@@UAEPAXI@Z
+  Search transition ?WideCharToMultiByte@@$$J232YGHIKPB_WHPADHPBDPAH@Z->_WideCharToMultiByte@32
+  Search transition ??_V@$$FYAXPAX@Z->??_V@YAXPAX@Z
+  Search transition ?_com_issue_error@@$$FYGXJ@Z->?_com_issue_error@@YGXJ@Z
+  Search transition ?VariantInit@@$$J14YGXPAUtagVARIANT@@@Z->_VariantInit@4
+  Search transition ??_U@$$FYAPAXI@Z->??_U@YAPAXI@Z
+  Search transition ?free@@$$J0YAXPAX@Z->_free
+  Search transition ?wcslen@@$$J0YAIPB_W@Z->_wcslen
+  Search transition ??_Ebad_cast@std@@UAEPAXI@Z->__t2m@??_Ebad_cast@std@@UAEPAXI@Z
+  Search transition ??2@$$FYAPAXI@Z->??2@YAPAXI@Z
+  Search transition ?_Xbad_alloc@std@@$$FYAXXZ->?_Xbad_alloc@std@@YAXXZ
+  Search transition ?_Xlength_error@std@@$$FYAXPBD@Z->?_Xlength_error@std@@YAXPBD@Z
+  Search transition ??RCTraceFileAndLineInfo@ATL@@$$FQBAXHIPB_WZZ->??RCTraceFileAndLineInfo@ATL@@QBAXHIPB_WZZ
+  Search transition ?_CxxThrowException@@$$J18YGXPAXPBU_s__ThrowInfo@@@Z->__CxxThrowException@8
+  Search transition ?SysStringByteLen@@$$J14YGIPA_W@Z->_SysStringByteLen@4
+  Search transition ?SysAllocStringByteLen@@$$J18YGPA_WPBDI@Z->_SysAllocStringByteLen@8
+  Search transition ?UnregisterClassW@@$$J18YGHPB_WPAUHINSTANCE__@@@Z->_UnregisterClassW@8
+  Search transition ??_Esystem_error@std@@UAEPAXI@Z->__t2m@??_Esystem_error@std@@UAEPAXI@Z
+  Search transition ?GetProcessHeap@@$$J10YGPAXXZ->_GetProcessHeap@0
+  Search transition ??_Efailure@ios_base@std@@UAEPAXI@Z->__t2m@??_Efailure@ios_base@std@@UAEPAXI@Z
+  Search transition ?RegOpenKeyExW@@$$J220YGJPAUHKEY__@@PB_WKKPAPAU1@@Z->_RegOpenKeyExW@20
+  Search transition ?RegCloseKey@@$$J14YGJPAUHKEY__@@@Z->_RegCloseKey@4
+  Search transition ?RegSetValueExW@@$$J224YGJPAUHKEY__@@PB_WKKPBEK@Z->_RegSetValueExW@24
+  Search transition ?RegCreateKeyExW@@$$J236YGJPAUHKEY__@@PB_WKPA_WKKQAU_SECURITY_ATTRIBUTES@@PAPAU1@PAK@Z->_RegCreateKeyExW@36
+  Search transition ?malloc@@$$J0YAPAXI@Z->_malloc
+  Search transition ?RegGetValueW@@$$J228YGJPAUHKEY__@@PB_W1KPAKPAX2@Z->_RegGetValueW@28
+  Search transition ?FormatMessageW@@$$J228YGKKPBXKKPA_WKPAPAD@Z->_FormatMessageW@28
+  Search transition ?RegEnumValueW@@$$J232YGJPAUHKEY__@@KPA_WPAK22PAE2@Z->_RegEnumValueW@32
+  Search transition ?OutputDebugStringW@@$$J14YGXPB_W@Z->_OutputDebugStringW@4
+  Search transition ?RegQueryInfoKeyW@@$$J248YGJPAUHKEY__@@PA_WPAK22222222PAU_FILETIME@@@Z->_RegQueryInfoKeyW@48
+  Search transition ?RegEnumKeyExW@@$$J232YGJPAUHKEY__@@KPA_WPAK212PAU_FILETIME@@@Z->_RegEnumKeyExW@32
+  Search transition ?HeapAlloc@@$$J212YGPAXPAXKK@Z->_HeapAlloc@12
+  Search transition ?HeapFree@@$$J212YGHPAXK0@Z->_HeapFree@12
+  Search transition ?HeapReAlloc@@$$J216YGPAXPAXK0K@Z->_HeapReAlloc@16
+  Search transition ?HeapSize@@$$J212YGKPAXKPBX@Z->_HeapSize@12
+  Search transition ??_V@$$FYAXPAXI@Z->??_V@YAXPAXI@Z
+  Search transition ??0CPreserveLastError@ATL@@QAE@XZ->__t2m@??0CPreserveLastError@ATL@@QAE@XZ
+  Search transition ??$__vcrt_va_start_verify_argument_type@PB_W@@YAXXZ->__t2m@??$__vcrt_va_start_verify_argument_type@PB_W@@YAXXZ
+  Search transition ?TraceV@CTrace@ATL@@SAXPBDHIIPB_WPAD@Z->__t2m@?TraceV@CTrace@ATL@@SAXPBDHIIPB_WPAD@Z
+  Search transition ??1CPreserveLastError@ATL@@QAE@XZ->__t2m@??1CPreserveLastError@ATL@@QAE@XZ
+  Search transition ?__stdio_common_vswprintf@@$$J0YAH_KPA_WIPB_WPAU__crt_locale_pointers@@PAD@Z->___stdio_common_vswprintf
+  Search transition ?__stdio_common_vsnwprintf_s@@$$J0YAH_KPA_WIIPB_WPAU__crt_locale_pointers@@PAD@Z->___stdio_common_vsnwprintf_s
+  Search transition ?swprintf_s@@$$J0YAHQA_WIQB_WZZ->_swprintf_s
+  Search transition ?SetLastError@@$$J14YGXK@Z->_SetLastError@4
+  Search transition ??$__vcrt_va_start_verify_argument_type@QB_W@@YAXXZ->__t2m@??$__vcrt_va_start_verify_argument_type@QB_W@@YAXXZ
+  Search transition ??0CAtlComModule@ATL@@$$FQAE@XZ->??0CAtlComModule@ATL@@QAE@XZ
+  Search transition ??0CTraceFileAndLineInfo@ATL@@QAE@PBDH@Z->__t2m@??0CTraceFileAndLineInfo@ATL@@QAE@PBDH@Z
+  Search transition ??B?$CTraceCategoryEx@$01$0A@@ATL@@QAEIXZ->__t2m@??B?$CTraceCategoryEx@$01$0A@@ATL@@QAEIXZ
+  Search transition ??1CAtlComModule@ATL@@$$FQAE@XZ->??1CAtlComModule@ATL@@QAE@XZ
+  Search transition ??_Etype_info@@UAEPAXI@Z->__t2m@??_Etype_info@@UAEPAXI@Z
+  Search transition ??_Ebad_alloc@std@@UAEPAXI@Z->__t2m@??_Ebad_alloc@std@@UAEPAXI@Z
+  Search transition ??_Ebad_array_new_length@std@@UAEPAXI@Z->__t2m@??_Ebad_array_new_length@std@@UAEPAXI@Z
+  Search transition ___vcrt_initialize->__t2m@___vcrt_initialize
+  Search transition ___vcrt_uninitialize->__t2m@___vcrt_uninitialize
+  Search transition ___vcrt_uninitialize_critical->__t2m@___vcrt_uninitialize_critical
+  Search transition ___vcrt_thread_attach->__t2m@___vcrt_thread_attach
+  Search transition ___vcrt_thread_detach->__t2m@___vcrt_thread_detach
+  Search transition __is_c_termination_complete->__t2m@__is_c_termination_complete
+  Search transition ___acrt_initialize->__t2m@___acrt_initialize
+  Search transition ___acrt_uninitialize->__t2m@___acrt_uninitialize
+  Search transition ___acrt_uninitialize_critical->__t2m@___acrt_uninitialize_critical
+  Search transition ___acrt_thread_attach->__t2m@___acrt_thread_attach
+  Search transition ___acrt_thread_detach->__t2m@___acrt_thread_detach
+  Search transition ?DoNothing@DefaultDomain@<CrtImplementationDetails>@@CGJPAX@Z->__t2m@?DoNothing@DefaultDomain@<CrtImplementationDetails>@@CGJPAX@Z
+  Search transition ?_cexit@@$$J0YAXXZ->__cexit
+  Search transition ?_UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@CGJPAX@Z->__t2m@?_UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@CGJPAX@Z
+  Search transition ?__security_init_cookie@@$$J0YAXXZ->___security_init_cookie
+  Search transition ?abort@@$$J0YAXXZ->_abort
+  Search transition ?_getFiberPtrId@@$$FYAPAXXZ->?_getFiberPtrId@@YAPAXXZ
+  Search transition ?Sleep@@$$J14YGXK@Z->_Sleep@4
+  Search transition ?__FrameUnwindFilter@@$$J0YAHPAU_EXCEPTION_POINTERS@@@Z->___FrameUnwindFilter
+  Search transition ?_Init_thread_lock@@$$J0YAXXZ->__Init_thread_lock
+  Search transition ?_Init_thread_wait@@$$J0YA_NK@Z->__Init_thread_wait
+  Search transition ?_Init_thread_unlock@@$$J0YAXXZ->__Init_thread_unlock
+  Search transition ?_Init_thread_notify@@$$J0YAXXZ->__Init_thread_notify
+  Search transition ?terminate@@$$J0YAXXZ->_terminate
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\atlmfc\lib\x86\atls.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found _HeapDestroy@4
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _WideCharToMultiByte@32
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _GetProcessHeap@0
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _FormatMessageW@28
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _HeapAlloc@12
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _HeapFree@12
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _HeapReAlloc@16
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _HeapSize@12
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _SetLastError@4
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _Sleep@4
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+        Found _UnregisterClassW@8
+          Loaded user32.lib(USER32.dll)
+        Found __IMPORT_DESCRIPTOR_USER32
+          Referenced in user32.lib(USER32.dll)
+          Loaded user32.lib(USER32.dll)
+        Found USER32_NULL_THUNK_DATA
+          Referenced in user32.lib(USER32.dll)
+          Loaded user32.lib(USER32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+        Found _RegOpenKeyExW@20
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found _RegCloseKey@4
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found _RegSetValueExW@24
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found _RegCreateKeyExW@36
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found _RegGetValueW@28
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found _RegEnumValueW@32
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found _RegQueryInfoKeyW@48
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found _RegEnumKeyExW@32
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found __IMPORT_DESCRIPTOR_ADVAPI32
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found ADVAPI32_NULL_THUNK_DATA
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Loaded advapi32.lib(ADVAPI32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+        Found _VariantCopy@8
+          Loaded oleaut32.lib(OLEAUT32.dll)
+        Found _VariantInit@4
+          Loaded oleaut32.lib(OLEAUT32.dll)
+        Found _SysStringByteLen@4
+          Loaded oleaut32.lib(OLEAUT32.dll)
+        Found _SysAllocStringByteLen@8
+          Loaded oleaut32.lib(OLEAUT32.dll)
+        Found __IMPORT_DESCRIPTOR_OLEAUT32
+          Referenced in oleaut32.lib(OLEAUT32.dll)
+          Referenced in oleaut32.lib(OLEAUT32.dll)
+          Referenced in oleaut32.lib(OLEAUT32.dll)
+          Referenced in oleaut32.lib(OLEAUT32.dll)
+          Loaded oleaut32.lib(OLEAUT32.dll)
+        Found OLEAUT32_NULL_THUNK_DATA
+          Referenced in oleaut32.lib(OLEAUT32.dll)
+          Loaded oleaut32.lib(OLEAUT32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\msvcprtd.lib:
+        Found "void __cdecl __ExceptionPtrDestroy(void *)" (?__ExceptionPtrDestroy@@YAXPAX@Z)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl __ExceptionPtrCopy(void *,void const *)" (?__ExceptionPtrCopy@@YAXPAXPBX@Z)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "public: __thiscall std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QAE@XZ)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPBD@Z)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found __IMPORT_DESCRIPTOR_MSVCP140D
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found MSVCP140D_NULL_THUNK_DATA
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\comsupp.lib:
+        Found "void __stdcall _com_issue_error(long)" (?_com_issue_error@@YGXJ@Z)
+          Loaded comsupp.lib(comsupp.obj)
+        Found "void __stdcall _com_raise_error(long,struct IErrorInfo *)" (?_com_raise_error@@YGXJPAUIErrorInfo@@@Z)
+          Referenced in comsupp.lib(comsupp.obj)
+          Loaded comsupp.lib(comraise.obj)
+        Found "long __cdecl _com_invoke_helper(struct IDispatch *,long,unsigned short,unsigned short,void *,unsigned short const *,char *,struct IErrorInfo * *)" (?_com_invoke_helper@@YAJPAUIDispatch@@JGGPAXPBGPADPAPAUIErrorInfo@@@Z)
+          Referenced in comsupp.lib(comsupp.obj)
+          Loaded comsupp.lib(invkprxy.obj)
+        Found "long __stdcall _com_handle_excepinfo(struct tagEXCEPINFO &,struct IErrorInfo * *)" (?_com_handle_excepinfo@@YGJAAUtagEXCEPINFO@@PAPAUIErrorInfo@@@Z)
+          Referenced in comsupp.lib(invkprxy.obj)
+          Loaded comsupp.lib(invkerr.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCRTD.lib:
+        Found "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+          Loaded MSVCRTD.lib(delete_array.obj)
+        Found "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+          Loaded MSVCRTD.lib(new_array.obj)
+        Found "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+          Referenced in MSVCRTD.lib(new_array.obj)
+          Loaded MSVCRTD.lib(new_scalar.obj)
+        Found "void __cdecl operator delete[](void *,unsigned int)" (??_V@YAXPAXI@Z)
+          Loaded MSVCRTD.lib(delete_array_size.obj)
+        Found ___security_init_cookie
+          Loaded MSVCRTD.lib(gs_support.obj)
+        Found __alloca_probe_16
+          Referenced in comsupp.lib(invkprxy.obj)
+          Loaded MSVCRTD.lib(alloca16.obj)
+        Found __chkstk
+          Referenced in MSVCRTD.lib(alloca16.obj)
+          Loaded MSVCRTD.lib(chkstk.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+        Found _wcscpy_s
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __invalid_parameter
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _wcslen
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _malloc
+          Referenced in MSVCRTD.lib(new_scalar.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found ___stdio_common_vswprintf
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found ___stdio_common_vsnwprintf_s
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _abort
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __callnewh
+          Referenced in MSVCRTD.lib(new_scalar.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\vcruntimed.lib:
+        Found _memcpy
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found ___FrameUnwindFilter
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\atlmfc\lib\x86\atls.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found __imp__LocalFree@4
+          Referenced in comsupp.lib(comraise.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__QueryPerformanceCounter@4
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcessId@0
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentThreadId@0
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetSystemTimeAsFileTime@4
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+        Found __imp__GetErrorInfo@8
+          Referenced in comsupp.lib(comsupp.obj)
+          Loaded oleaut32.lib(OLEAUT32.dll)
+        Found __imp__VariantClear@4
+          Referenced in comsupp.lib(invkprxy.obj)
+          Loaded oleaut32.lib(OLEAUT32.dll)
+        Found __imp__VariantChangeType@16
+          Referenced in comsupp.lib(invkprxy.obj)
+          Loaded oleaut32.lib(OLEAUT32.dll)
+        Found __imp__SetErrorInfo@8
+          Referenced in comsupp.lib(invkprxy.obj)
+          Loaded oleaut32.lib(OLEAUT32.dll)
+        Found __imp__SysFreeString@4
+          Referenced in comsupp.lib(invkerr.obj)
+          Loaded oleaut32.lib(OLEAUT32.dll)
+        Found __imp__CreateErrorInfo@4
+          Referenced in comsupp.lib(invkerr.obj)
+          Loaded oleaut32.lib(OLEAUT32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\comsupp.lib:
+  
+  Finished searching libraries
+  Search transition ??_Etype_info@@UAEPAXI@Z->__t2m@??_Etype_info@@UAEPAXI@Z
+  Search transition ??_Ebad_alloc@std@@UAEPAXI@Z->__t2m@??_Ebad_alloc@std@@UAEPAXI@Z
+  Search transition ??_Ebad_array_new_length@std@@UAEPAXI@Z->__t2m@??_Ebad_array_new_length@std@@UAEPAXI@Z
+  Search transition ___vcrt_initialize->__t2m@___vcrt_initialize
+  Search transition ___vcrt_uninitialize->__t2m@___vcrt_uninitialize
+  Search transition ___vcrt_uninitialize_critical->__t2m@___vcrt_uninitialize_critical
+  Search transition ___vcrt_thread_attach->__t2m@___vcrt_thread_attach
+  Search transition ___vcrt_thread_detach->__t2m@___vcrt_thread_detach
+  Search transition __is_c_termination_complete->__t2m@__is_c_termination_complete
+  Search transition ___acrt_initialize->__t2m@___acrt_initialize
+  Search transition ___acrt_uninitialize->__t2m@___acrt_uninitialize
+  Search transition ___acrt_uninitialize_critical->__t2m@___acrt_uninitialize_critical
+  Search transition ___acrt_thread_attach->__t2m@___acrt_thread_attach
+  Search transition ___acrt_thread_detach->__t2m@___acrt_thread_detach
+  Search transition ??_E_com_error@@UAEPAXI@Z->__t2m@??_E_com_error@@UAEPAXI@Z
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\atlmfc\lib\x86\atls.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\comsupp.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\vcruntimed.lib:
+  
+  Finished searching libraries
+  Search transition ??_Etype_info@@UAEPAXI@Z->__t2m@??_Etype_info@@UAEPAXI@Z
+  Search transition ??_Ebad_alloc@std@@UAEPAXI@Z->__t2m@??_Ebad_alloc@std@@UAEPAXI@Z
+  Search transition ??_Ebad_array_new_length@std@@UAEPAXI@Z->__t2m@??_Ebad_array_new_length@std@@UAEPAXI@Z
+  Search transition ___vcrt_initialize->__t2m@___vcrt_initialize
+  Search transition ___vcrt_uninitialize->__t2m@___vcrt_uninitialize
+  Search transition ___vcrt_uninitialize_critical->__t2m@___vcrt_uninitialize_critical
+  Search transition ___vcrt_thread_attach->__t2m@___vcrt_thread_attach
+  Search transition ___vcrt_thread_detach->__t2m@___vcrt_thread_detach
+  Search transition __is_c_termination_complete->__t2m@__is_c_termination_complete
+  Search transition ___acrt_initialize->__t2m@___acrt_initialize
+  Search transition ___acrt_uninitialize->__t2m@___acrt_uninitialize
+  Search transition ___acrt_uninitialize_critical->__t2m@___acrt_uninitialize_critical
+  Search transition ___acrt_thread_attach->__t2m@___acrt_thread_attach
+  Search transition ___acrt_thread_detach->__t2m@___acrt_thread_detach
+  Search transition ??_E_com_error@@UAEPAXI@Z->__t2m@??_E_com_error@@UAEPAXI@Z
+  Merging metadata
+  Finished merging metadata
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\atlmfc\lib\x86\atls.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\comsupp.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+        Found __CorExeMain@0
+          Loaded MSCOREE.lib(mscoree.dll)
+        Found __IMPORT_DESCRIPTOR_mscoree
+          Referenced in MSCOREE.lib(mscoree.dll)
+          Loaded MSCOREE.lib(mscoree.dll)
+        Found mscoree_NULL_THUNK_DATA
+          Referenced in MSCOREE.lib(mscoree.dll)
+          Loaded MSCOREE.lib(mscoree.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\vcruntimed.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\atlmfc\lib\x86\atls.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\comsupp.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCMRTD.lib:
+  
+  Finished searching libraries
+  Generating clr ijw/native image
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\atlmfc\lib\x86\atls.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\comsupp.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCRTD.lib:
+        Found __load_config_used
+          Loaded MSVCRTD.lib(loadcfg.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\vcruntimed.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\atlmfc\lib\x86\atls.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\comsupp.lib:
+  
+  Finished searching libraries
+  
+  Invoking rc.exe:
+   /v
+   /x
+   /fo
+   "C:\Users\Tom\AppData\Local\Temp\lnk{EED8D09A-EB55-45CF-8EEF-EA24883114FF}.tmp"
+   "C:\Users\Tom\AppData\Local\Temp\lnk{AB9A6E36-3DFD-4C0D-9D9B-252187663F39}.tmp"
+  Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Creating C:\Users\Tom\AppData\Local\Temp\lnk{EED8D09A-EB55-45CF-8EEF-EA24883114FF}.tmp
+  
+  Using codepage 1251 as default
+  
+  C:\Users\Tom\AppData\Local\Temp\lnk{AB9A6E36-3DFD-4C0D-9D9B-252187663F39}.tmp.
+  Writing 24:1,	lang:0x409,	size 381
+  
+  Invoking cvtres.exe:
+   /machine:x86
+   /verbose
+   /out:"C:\Users\Tom\AppData\Local\Temp\lnk{5ED997EF-3B6F-484B-AF59-E192D5357FA8}.tmp"
+   /readonly
+   "C:\Users\Tom\AppData\Local\Temp\lnk{EED8D09A-EB55-45CF-8EEF-EA24883114FF}.tmp"
+  Microsoft (R) Windows Resource To Object Converter Version 14.12.25835.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  adding resource. type:MANIFEST, name:1, language:0x0409, flags:0x30, size:381
+  
+  Unused libraries:
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shlwapi.lib
+    C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\lib\x86\OLDNAMES.lib
+  
+  Starting pass 2
+       * linker generated manifest res *
+       .NETFramework,Version=v4.6.1.AssemblyAttributes.obj
+       main.obj
+       form.obj
+       atls.lib(atlbase.obj)
+       atls.lib(stdafx.obj)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       comsupp.lib(comraise.obj)
+       comsupp.lib(comsupp.obj)
+       comsupp.lib(invkerr.obj)
+       comsupp.lib(invkprxy.obj)
+       MSVCRTD.lib(_cpu_disp_.obj)
+       MSVCRTD.lib(_chandler4gs_.obj)
+       MSVCRTD.lib(_secchk_.obj)
+       MSVCRTD.lib(alloca16.obj)
+       MSVCRTD.lib(chkstk.obj)
+       MSVCRTD.lib(atlssup.obj)
+       MSVCRTD.lib(gs_cookie.obj)
+       MSVCRTD.lib(gs_report.obj)
+       MSVCRTD.lib(gs_support.obj)
+       MSVCRTD.lib(checkcfg.obj)
+       MSVCRTD.lib(guard_support.obj)
+       MSVCRTD.lib(loadcfg.obj)
+       MSVCRTD.lib(ucrt_detection.obj)
+       MSVCRTD.lib(argv_mode.obj)
+       MSVCRTD.lib(default_local_stdio_options.obj)
+       MSVCRTD.lib(fltused.obj)
+       MSVCRTD.lib(std_type_info_static.obj)
+       MSVCRTD.lib(delete_array.obj)
+       MSVCRTD.lib(delete_array_size.obj)
+       MSVCRTD.lib(delete_scalar.obj)
+       MSVCRTD.lib(delete_scalar_size.obj)
+       MSVCRTD.lib(new_array.obj)
+       MSVCRTD.lib(new_scalar.obj)
+       MSVCRTD.lib(throw_bad_alloc.obj)
+       MSVCRTD.lib(thread_safe_statics.obj)
+       MSVCRTD.lib(tlssup.obj)
+       MSVCRTD.lib(initializers.obj)
+       MSVCRTD.lib(utility.obj)
+       MSVCRTD.lib(ucrt_stubs.obj)
+       MSVCRTD.lib(utility_desktop.obj)
+       MSVCMRTD.lib(msilexit.obj)
+       MSVCMRTD.lib(mstartup.obj)
+       MSVCMRTD.lib(pureMSILcode.obj)
+       MSVCMRTD.lib(mtss.obj)
+       MSVCMRTD.lib(managdeh.obj)
+       MSVCMRTD.lib(mehvecdtr.obj)
+       MSCOREE.lib(mscoree.dll)
+       MSCOREE.lib(mscoree.dll)
+       MSCOREE.lib(mscoree.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+  Finished pass 2
+  Lab2.vcxproj -> F:\4semester\Labs\Sysprog\Lab2\Debug\Lab2.exe

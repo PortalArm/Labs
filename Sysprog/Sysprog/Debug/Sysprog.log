@@ -1,0 +1,5 @@
+﻿  MyForm.cpp
+f:\4semester\labs\sysprog\sysprog\MyForm.h(269): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(240): note: see declaration of 'freopen'
+MyForm.cpp(7): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  Sysprog.vcxproj -> F:\4semester\Labs\Sysprog\Debug\Sysprog.exe

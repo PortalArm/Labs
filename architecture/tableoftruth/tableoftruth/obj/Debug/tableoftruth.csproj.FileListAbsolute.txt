@@ -1,0 +1,7 @@
+F:\4semester\Labs\architecture\tableoftruth\tableoftruth\bin\Debug\tableoftruth.exe.config
+F:\4semester\Labs\architecture\tableoftruth\tableoftruth\bin\Debug\tableoftruth.exe
+F:\4semester\Labs\architecture\tableoftruth\tableoftruth\bin\Debug\tableoftruth.pdb
+F:\4semester\Labs\architecture\tableoftruth\tableoftruth\obj\Debug\tableoftruth.csprojResolveAssemblyReference.cache
+F:\4semester\Labs\architecture\tableoftruth\tableoftruth\obj\Debug\tableoftruth.csproj.CoreCompileInputs.cache
+F:\4semester\Labs\architecture\tableoftruth\tableoftruth\obj\Debug\tableoftruth.exe
+F:\4semester\Labs\architecture\tableoftruth\tableoftruth\obj\Debug\tableoftruth.pdb

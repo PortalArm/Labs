@@ -1,0 +1,8 @@
+﻿  form.cpp
+f:\4semester\labs\sysprog\lab2\lab2\form.h(323): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+f:\4semester\labs\sysprog\lab2\lab2\form.h(363): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  main.cpp
+f:\4semester\labs\sysprog\lab2\lab2\form.h(323): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+f:\4semester\labs\sysprog\lab2\lab2\form.h(363): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  Generating Code...
+  Lab2.vcxproj -> F:\4semester\Labs\Sysprog\Lab2\x64\Debug\Lab2.exe

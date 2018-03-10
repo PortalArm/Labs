@@ -1,0 +1,27 @@
+C:\Users\User\AppData\Local\Temporary Projects\Lab1\bin\Debug\Lab1.exe
+C:\Users\User\AppData\Local\Temporary Projects\Lab1\bin\Debug\Lab1.pdb
+C:\Users\User\AppData\Local\Temporary Projects\Lab1\obj\x86\Debug\Lab1.Form1.resources
+C:\Users\User\AppData\Local\Temporary Projects\Lab1\obj\x86\Debug\Lab1.Form2.resources
+C:\Users\User\AppData\Local\Temporary Projects\Lab1\obj\x86\Debug\Lab1.Properties.Resources.resources
+C:\Users\User\AppData\Local\Temporary Projects\Lab1\obj\x86\Debug\Lab1.csproj.GenerateResource.Cache
+C:\Users\User\AppData\Local\Temporary Projects\Lab1\obj\x86\Debug\Lab1.exe
+C:\Users\User\AppData\Local\Temporary Projects\Lab1\obj\x86\Debug\Lab1.pdb
+F:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.exe
+F:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.pdb
+F:\Files\Labs\Process of Development\Lab1\Lab1\bin\Debug\Lab1.exe
+F:\Files\Labs\Process of Development\Lab1\Lab1\bin\Debug\Lab1.pdb
+F:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.Form1.resources
+F:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.Form2.resources
+F:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.Properties.Resources.resources
+F:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.csproj.GenerateResource.Cache
+F:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.csproj.CoreCompileInputs.cache
+F:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.csprojResolveAssemblyReference.cache
+E:\Files\Labs\Process of Development\Lab1\Lab1\bin\Debug\Lab1.exe
+E:\Files\Labs\Process of Development\Lab1\Lab1\bin\Debug\Lab1.pdb
+E:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.csprojResolveAssemblyReference.cache
+E:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.Form1.resources
+E:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.Form2.resources
+E:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.Properties.Resources.resources
+E:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.csproj.GenerateResource.Cache
+E:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.exe
+E:\Files\Labs\Process of Development\Lab1\Lab1\obj\x86\Debug\Lab1.pdb
